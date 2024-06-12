@@ -252,10 +252,9 @@ font-weight: 400;
 
     
     .container-pc2 {
-        padding: 150px 0px 0px 0px;
         display: flex;
         flex-direction: column-reverse;
-        margin: 100px;
+        
     }
 
     .container-moeda{
@@ -264,19 +263,14 @@ font-weight: 400;
     }
 
     .container-recompensa{
-        width: 400px;
+        width: 300px;
     }
 }
 
 
-@media (max-width: 600px){
-    body{
-        padding-left: 160px;
-    }
-    .sacodedinheiro{
-        padding-right: 30px;
-
-    }
+@media (max-width: 800px){
+    
+   
 
     .centro{
         width: 300px;
@@ -289,6 +283,86 @@ font-weight: 400;
 
 
     .texto__footer{
+    }
+
+    .botaoprimario{
+        width: 250px;
+    }
+
+    .botaosecundario{
+        width: 250px;
+    }
+
+    .betoprimeira{
+        width: 300px;
+    }
+
+    .pequenocomputador{
+        width: 250px;
+    }
+
+    .container-pc2{
+        padding: 0;
+    }
+
+    .betocorrendo{
+        width: 250px;
+    }
+
+    .terceiro{
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .sacodedinheiro{
+        width: 250px;
+    }
+
+    .container-media{
+        width: 250px;
+    }
+
+    .cel{
+        width: 100px;
+    }
+
+    .pcfinal{
+        width: 100px;
+    }
+
+    .tatoo{
+        width: 100px;
+    }
+
+    .container-moeda{
+        height: 100vh;
+        padding: 0;
+    }
+
+    .container-recompensa{
+        padding: 0;
+    }
+
+    .centro-final{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container__rodape{
+        margin: 0;
+    }
+
+    .centrao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centro{
+        padding: 0;
     }
 
 
